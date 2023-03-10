@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: BlinkMacSystemFont, Roboto, Roboto;
+  color: black;
+  background-color: white;
+}
+.s-Blogs {
+  display: flex;
+  gap: 20px;
+}
+
+.s-AuthorImage {
+  margin-left: 10px;
+  border: 8px solid #d4472c;
+  border-radius: 24px;
+  width: 150px;
+  height: 150px;
+  rotate: -10deg;
+  transition: 0.3s;
+  transform-origin: left bottom;
+}
+.s-AuthorImage:hover {
+  rotate: 0deg;
+  transition: 0.3s;
+}
+.s-DateAndCategroy {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.s-Author {
+  color: #d4472c;
+  font-size: 20px;
+  font-weight: bold;
+}
+.s-Action {
+  color: #666666;
+}
+.s-Date {
+  color: #666666;
+  font-size: 14px;
+}
+.s-Category {
+  color: #666666;
+  font-weight: bold;
+}
+.s-Description {
+  font-size: 20px;
+  color: #314168;
+}
+.s-DetailContent {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d4472c;
+}
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
